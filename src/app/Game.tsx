@@ -394,7 +394,7 @@ export default function Game({ onPlayAgain }: GameProps) {
       </div>
       {timeUp && (
         <div>
-          <p className={styles.timeUpMessage}>Time's up! You didn't select any art categories or elements.</p>
+          <p className={styles.timeUpMessage}>Time is up! You did not select any art categories or elements.</p>
           <button className={styles.playAgainButton} onClick={restartGame}>
             Start New Round
           </button>
